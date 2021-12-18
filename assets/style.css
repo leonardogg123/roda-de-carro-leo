@@ -1,0 +1,224 @@
+body {
+  margin: 0;
+  background-color: #FFEAD4;
+  overflow-x: hidden;
+}
+.logo {
+
+    background: black;
+    font-family: 'Varela Round', sans-serif;
+    color: whitesmoke;
+
+}
+.container {
+	padding: 4% 0;
+	margin: 0 auto;
+	max-width: 60rem;
+}
+
+.menu {
+	padding: 2rem;
+    border-bottom: 1px solid rgb(123, 123, 123);
+}
+
+.menu, .menu-nav {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+	justify-content: center;
+}
+
+.menu-logo {
+	width: 12rem;
+	padding-top: .5rem;
+}
+
+.menu-nav li {
+	padding: 6px 1rem;
+}
+
+.menu-nav li a {
+	display: inline;
+	color: whitesmoke;
+	font-size: 18px;
+}
+
+.menu-nav li a:hover {
+	border-bottom: 1px solid #C78C19;
+	color: #C78C19;
+	
+}
+
+.menu-nav li a:active {
+	color: #ffb4b4;
+    border-color: #ffb4b4;
+}
+
+#link-topo {
+	text-decoration: none;
+	color: whitesmoke;
+	background-color: #cf3c3c;
+	padding: 10px;
+	margin: 1rem;
+	display: inline-block;
+}
+
+@media screen and (min-width: 700px){
+	.menu {
+		padding: .2rem;
+	}
+
+    .menu, .menu-nav {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+	.menu-nav li {
+		padding: 2px 1rem;
+	}
+
+}
+
+@media screen and (min-width: 1000px){
+    .menu, .menu-nav {
+        flex-direction: row;
+        justify-content: start;
+    }
+}
+
+
+.container-header {
+    width: 100vw;
+}
+
+.lett-header {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 80%;
+    margin-top: 10%;
+    fill: transparent;
+    animation: lett-preenchimento 0.5s ease-in-out forwards 4s; 
+}
+
+
+.lett-header {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: 80%;
+    margin-top: 10%;
+    fill: transparent;
+    animation: lett-preenchimento 0.5s ease-in-out forwards 4s; 
+}
+
+.lett-header path {
+    stroke-width: 2px;
+    stroke: #BE253F;
+    stroke-dasharray: 3000;
+    stroke-dashoffset: 3000;
+    animation: lett-tracado 5s ease-in-out forwards 1s; 
+}
+
+h1, h2 {
+    font-family: 'Pacifico', cursive;
+    color: #BE253F;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 1em;
+}
+
+.container-cards {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.card {
+    background-color: black;
+    border-radius: 10px;
+    width: 40%;
+    padding: 10px;
+    margin: 7px;
+}
+
+.lett-footer {
+    width: 80%;
+    fill: #fff;
+    opacity: 0.7;
+    left: 20%;
+    margin-top: 10%;
+}
+
+.container-footer {
+    position: relative;
+}
+
+.footer-infos {
+    text-align: center;
+}
+
+@keyframes lett-preenchimento {
+    to {
+        fill: #BE253F;
+    }
+}
+
+@keyframes lett-tracado {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+@media screen and (min-width: 700px){
+	.menu {
+		padding: .2rem;
+	}
+
+    .menu, .menu-nav {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+	.menu-nav li {
+		padding: 2px 1rem;
+	}
+
+}
+
+@media screen and (min-width: 1000px){
+    .menu, .menu-nav {
+        flex-direction: row;
+        justify-content: start;
+    }
+}
+
+@media screen and (min-width: 700px){
+	.menu {
+		padding: .2rem;
+	}
+
+    .menu, .menu-nav {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+	.menu-nav li {
+		padding: 2px 1rem;
+	}
+    p{
+        padding: 2px 1rem;
+    }
+
+}

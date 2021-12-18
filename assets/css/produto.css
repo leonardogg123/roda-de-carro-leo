@@ -1,0 +1,24 @@
+.produtos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+
+.produtos img {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    max-height: 100%;
+    margin: 1rem 0;
+}
+
+.produtos h2 {
+    padding: 0 1rem;
+}
+
+.produtos .item {
+    padding: 1rem 0;
+    font-weight: bolder;
+}

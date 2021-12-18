@@ -1,0 +1,43 @@
+.mapa p {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.container-table {
+    align-content: center;
+}
+
+.table {
+    margin: .7rem 2.1rem;
+    display: flex;
+    flex-direction: column;
+    background: #111111;
+}
+
+.thead {
+    background: #181818;
+    color: white;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
+}
+
+
+@media screen and (min-width: 700px){
+    .table {
+        width: 90%;
+        margin: 0 3rem;
+    }
+
+}

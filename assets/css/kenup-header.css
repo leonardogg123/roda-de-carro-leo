@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Varela+Round&display=swap');
+
+body {
+    background: black;
+	font-family: 'Varela Round', sans-serif;
+	color: whitesmoke;
+}
+
+.container {
+	padding: 4% 0;
+	margin: 0 auto;
+	max-width: 60rem;
+}
+
+.menu {
+	padding: 2rem;
+    border-bottom: 1px solid rgb(123, 123, 123);
+}
+
+.menu, .menu-nav {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+	justify-content: center;
+}
+
+.menu-logo {
+	width: 25rem;
+	padding-top: .5rem;
+}
+
+.menu-nav li {
+	padding: 6px 1rem;
+}
+
+.menu-nav li a {
+	display: inline;
+	color: whitesmoke;
+	font-size: 19.9px;
+}
+
+.menu-nav li a:hover {
+	border-bottom: 1px solid #C78C19;
+	color: #C78C19;
+	
+}
+
+.menu-nav li a:active {
+	color: #ffb4b4;
+    border-color: #ffb4b4;
+}
+
+#link-topo {
+	text-decoration: none;
+	color: whitesmoke;
+	background-color: #cf3c3c;
+	padding: 10px;
+	margin: 1rem;
+	display: inline-block;
+}
+
+@media screen and (min-width: 700px){
+	.menu {
+		padding: .2rem;
+	}
+
+    .menu, .menu-nav {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+	.menu-nav li {
+		padding: 2px 1rem;
+	}
+
+}
+
+@media screen and (min-width: 1000px){
+    .menu, .menu-nav {
+        flex-direction: row;
+        justify-content: start;
+    }
+}
+.h6 {
+	align-items: center;
+}

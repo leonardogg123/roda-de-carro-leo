@@ -1,0 +1,12 @@
+footer {
+	padding: 2rem 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-logo {
+    align-self: center;
+    width: 16rem;
+	padding-top: .5rem;
+}

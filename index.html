@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Produtos - concessionaria</title>
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Varela+Round&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/kenup-header.css">
+  <link rel="stylesheet" href="assets/css/kenup-cards.css">
+  <link rel="stylesheet" href="assets/css/kenup-form.css">
+  <link rel="stylesheet" href="assets/css/kenup-table.css">
+  <link rel="stylesheet" href="assets/css/kenup-footer.css">
+</head>
+
+<body>
+  <audio src="assets/img/fundo.mpeg" autoplay controls loop>
+    <p>Infelizmente não é compativel</p>
+  </audio>
+
+  </audio>
+  <header class="menu container">
+    <img src="assets/img/logo.jpg" alt="logo da concessionaria" class="menu-logo">
+    <nav class="menu-navegacao">
+      <ul class="menu-nav">
+        <li class="menu-item"><a href="index.html">Home</a></li>
+        <li class="menu-item"><a href="teste.html">Test Drive</a></li>
+        <li class="menu-item"><a href="catalago.html">Catalago Carro</a></li>
+        <li class="menu-item"><a href="produto.html">Catalago Moto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="container-catalogo">
+      <h1>Produtos</h1>
+      <ul class="produtos">
+        <li class="card">
+          <h2>Carros</h2>
+          <img src="assets/img/catalago.jpg">
+          <div class="container texto">
+            <p class="produto-descricao"> Veiculos Periciados traz o que há de melhor para o mercado;</p>
+            <p class="produto-preco">R$ 250,00</p>
+          </div>
+        </li>
+        <li class="card">
+          <h2>Revisao</h2>
+          <img src="assets/img/carro.jpg">
+          <div class="container texto">
+            <p class="produto-descricao"> Esta pensando em viajar? Viaje com segurança com sua familia!
+              Agende sua Revisão preventiva conosco;</p>
+            <p class="produto-preco">R$ 180,00</p>
+          </div>
+        </li>
+        <li class="card">
+          <h2>Motos</h2>
+          <img src="assets/img/revisao.png">
+          <div class="container texto">
+            <p class="produto-descricao"> Veiculos Periciados traz o que há de melhor para o mercado;</p>
+            <p class="produto-preco">R$ 250,00</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <h1>Um dono ideal para cada tipo de carro</h1>
+
+    <div class="videos">
+      <iframe width="500" height="255" src="https://www.youtube.com/embed/oshtj0dzchY" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+      <iframe width="500" height="255" src="https://www.youtube.com/embed/z-zHj-39BqY" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
+
+      <h1>Nos mande uma Mensagem</h1>
+
+      <form class="container" action="https://formsubmit.co/leonardo.gabrig@escola.pr.gov.br" method="POST">
+        <label for="nomesobrenome">Nome e Sobrenome</label>
+        <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+        <label for="telefone">Telefone</label>
+        <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
+
+        <label for="mensagem">mensagem</label>
+        <textarea cols="100" rows="10" id="mensagem" class="input-padrao" required> </textarea>
+
+        <fieldset>
+          <legend>Como prefere nosso contato? *</legend>
+          <label for="radio-email"><input type="radio" value="email" id="radio-email">Email</label>
+          <label for="radio-instagram"><input type="radio" value="instagram" id="radio-instagram">Instagram</label>
+          <label for="radio-telefone"><input type="radio" value="telefone" id="radio-telefone">Telefone</label>
+          <label for="radio-whatsapp"><input type="radio" value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Qual horário prefere ser atendido?</legend>
+            <select>
+              <option>Manhã</option>
+              <option>tarde</option>
+              <option>noite</option>
+            </select>
+          </fieldset>
+
+          <fieldset>
+            <label class="checkbox" for="checkbox">Gostaria de receber nossas novidades por email?</label>
+            <input type="checkbox" id="checkbox" checked>
+          </fieldset>
+
+          <input type="submit" value="Enviar Mensagem" class="enviar">
+      </form>
+
+    <section class="container mapa">
+      <h1>Nosso estabelecimento</h1>
+      <p>Nosso estabelecimento está localizado no coração da cidade.</p>
+
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d900.7837349732613!2d-49.237391497974336!3d-25.433751795830982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce5e95e5946bd%3A0x80cf3d731375d090!2sAuto%20Shopping%20Curitiba!5e0!3m2!1spt-BR!2sbr!4v1627493177305!5m2!1spt-BR!2sbr"
+        width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <section class="container-table">
+      <h1>Nossos horários</h1>
+
+      <div class="table">
+        <table>
+          <tr class="thead">
+            <th>Dia</th>
+            <th>Horário</th>
+          </tr>
+          <tr>
+            <td>Segunda</td>
+            <td>8h-20h</td>
+          </tr>
+          <tr>
+            <td> Terça</td>
+            <td>8h-20h</td>
+          </tr>
+          <tr>
+            <td>Quarta</td>
+            <td>8h-20h</td>
+          </tr>
+          <tr>
+            <td>Sexta</td>
+            <td>8h-20h</td>
+          </tr>
+          <tr>
+            <td> Sábado </td>
+            <td> 8h -18h</td>
+          </tr>
+          <tr>
+            <td>Domingo</td>
+            <td> Fechado</td>
+          </tr>
+      </table>
+    </div>
+    </section>
+  </main>
+  <a href="#" id="link-topo">&#9650; Voltar ao topo?</a>
+
+  <footer class="container">
+    <img src="assets/img/logo.jpg" class="footer-logo">
+    <p class="copyright">&copy; Copyright Concessionária - 2021</p>
+  </footer>
+  <h2>Site feito por estudante</h2>
+  <h2>Área de anexos Visualizar o vídeo Novo Hyundai Creta 2022 - Design Único, Potência e Muita Tecnologia do YouTube</h2>
+</body>
+</html>
